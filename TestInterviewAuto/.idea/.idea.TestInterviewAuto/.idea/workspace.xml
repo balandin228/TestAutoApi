@@ -24,31 +24,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfda8601-21e7-42d9-ad5d-9de8323a3128" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/.idea/.idea.TestInteriewAuto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/.idea/.idea.TestInteriewAuto/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/.idea/.idea.TestInteriewAuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/.idea/.idea.TestInteriewAuto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/Model/Car/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/Model/Car/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/Model/Car/ICar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/Model/Car/ICar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/Model/CarBrand/CarBrand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/Model/CarBrand/CarBrand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/Model/CarBrand/ICarBrand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/Model/CarBrand/ICarBrand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/Model/Color/CarColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/Model/Color/CarColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/Model/Color/ICarColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/Model/Color/ICarColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/Model/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/Model/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/TestInteriewAuto.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/TestInterviewAuto.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/Debug/netcoreapp3.1/TestInteriewAuto.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/TestInteriewAuto.Domain.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/Debug/netcoreapp3.1/TestInteriewAuto.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/TestInteriewAuto.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/Debug/netcoreapp3.1/TestInteriewAuto.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/TestInteriewAuto.Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/Debug/netcoreapp3.1/TestInteriewAuto.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/TestInteriewAuto.Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/TestInteriewAuto.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/TestInteriewAuto.Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/TestInteriewAuto.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/TestInteriewAuto.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/TestInteriewAuto.Domain.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/TestInteriewAuto.Domain.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TestInteriewAuto/TestInterviewAuto.Domain/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.Domain/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestInteriewAuto/TestInteriewAuto.sln" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/AutoDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/Debug/netcoreapp3.1/TestInterviewAuto.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/Debug/netcoreapp3.1/TestInterviewAuto.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/TestInterviewAuto.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/TestInterviewAuto.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +44,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TestInterviewAuto/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/AutoDbContext.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1gHTgstaI8Tp5TN7XgftzBPLO6q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -117,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597770633255</updated>
-      <workItem from="1597770660201" duration="676000" />
+      <workItem from="1597770660201" duration="1100000" />
     </task>
     <servers />
   </component>
@@ -137,5 +130,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="727" y="388" key="Rider.ProjectTemplateDialog.Size" timestamp="1597771350275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="388" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1597771350275" />
   </component>
 </project>
