@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestInterviewAuto.Domain", "TestInterviewAuto.Domain\TestInterviewAuto.Domain.csproj", "{005EF1CD-5C21-4BB2-848C-0485D6F5BFE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestInterviewAuto.Infrastructure", "TestInterviewAuto.Infrastructure\TestInterviewAuto.Infrastructure.csproj", "{727E9B92-7C09-4E95-8815-DD47CD142856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{005EF1CD-5C21-4BB2-848C-0485D6F5BFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005EF1CD-5C21-4BB2-848C-0485D6F5BFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005EF1CD-5C21-4BB2-848C-0485D6F5BFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005EF1CD-5C21-4BB2-848C-0485D6F5BFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727E9B92-7C09-4E95-8815-DD47CD142856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727E9B92-7C09-4E95-8815-DD47CD142856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727E9B92-7C09-4E95-8815-DD47CD142856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727E9B92-7C09-4E95-8815-DD47CD142856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
