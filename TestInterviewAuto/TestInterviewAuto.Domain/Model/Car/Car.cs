@@ -18,5 +18,13 @@ namespace TestInterviewAuto.Domain.Model.Car
             RegistrationNumber = registrationNumber;
             ColorId = colorId;
         }
+        
+        public Car(long key,string registrationNumber, long colorId, int yearOfIssue, long carBrandId):base(key)
+        {
+            CarBrandId = carBrandId;
+            YearOfIssue = yearOfIssue;
+            RegistrationNumber = registrationNumber;
+            ColorId = colorId;
+        }
     }
 }

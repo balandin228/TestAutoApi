@@ -24,13 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfda8601-21e7-42d9-ad5d-9de8323a3128" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarRepository/ICarRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/EFRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/IReadOnlyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +48,8 @@
         <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/EFRepository.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/ICar.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarRepository/ICarRepository.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarRepository/CarRepository.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597770633255</updated>
-      <workItem from="1597770660201" duration="2131000" />
+      <workItem from="1597770660201" duration="2872000" />
     </task>
     <servers />
   </component>
