@@ -24,8 +24,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfda8601-21e7-42d9-ad5d-9de8323a3128" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarBrandTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarTypeConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/TestInterviewAuto.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/TestInterviewAuto.Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/Debug/netcoreapp3.1/TestInterviewAuto.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/Debug/netcoreapp3.1/TestInterviewAuto.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +55,10 @@
         <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarRepository/ICarRepository.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarRepository/CarRepository.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Color/CarColor.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/ColorTypeConfiguration.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarTypeConfiguration.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarBrandTypeConfiguration.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +120,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597770633255</updated>
-      <workItem from="1597770660201" duration="2872000" />
+      <workItem from="1597770660201" duration="4031000" />
+      <workItem from="1598036259253" duration="409000" />
     </task>
     <servers />
   </component>
@@ -128,6 +138,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -137,5 +148,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="388" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1597771350275" />
+    <state x="867" y="314" key="RiderGenerateDialog" timestamp="1597773765389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="867" y="314" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597773765389" />
   </component>
 </project>

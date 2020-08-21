@@ -34,7 +34,11 @@
       <e p="TestInterviewAuto.Infrastructure" t="IncludeRecursive">
         <e p="AutoDbContext.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Configurations" t="Include" />
+        <e p="Configurations" t="Include">
+          <e p="CarBrandTypeConfiguration.cs" t="Include" />
+          <e p="CarTypeConfiguration.cs" t="Include" />
+          <e p="ColorTypeConfiguration.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
