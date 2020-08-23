@@ -18,7 +18,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\admin\\Documents\\GitHub\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Infrastructure\\TestInterviewAuto.Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Infrastructure\\TestInterviewAuto.Infrastructure.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -29,6 +33,40 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore.Design": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.1.7, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.1.7, )"
+        },
+        "Npgsql.EntityFrameworkCore.PostgreSQL": {
+          "target": "Package",
+          "version": "[3.1.4, )"
+        },
+        "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+          "target": "Package",
+          "version": "[1.1.0, )"
+        },
+        "Swashbuckle.AspNetCore.Swagger": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerGen": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerUI": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

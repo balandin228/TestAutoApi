@@ -11,6 +11,10 @@ namespace TestInterviewAuto.Domain.Model.Car
         public virtual CarBrand.CarBrand CarBrand { get; }
         public virtual CarColor Color { get; }
 
+        public Car()
+        {
+            
+        }
         public Car(string registrationNumber, long colorId, int yearOfIssue, long carBrandId)
         {
             CarBrandId = carBrandId;

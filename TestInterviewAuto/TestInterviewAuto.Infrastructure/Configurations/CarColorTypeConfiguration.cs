@@ -4,7 +4,7 @@ using TestInterviewAuto.Domain.Model.Color;
 
 namespace TestInterviewAuto.Infrastructure.Configurations
 {
-    public class ColorTypeConfiguration : IEntityTypeConfiguration<CarColor>
+    public class CarColorTypeConfiguration : IEntityTypeConfiguration<CarColor>
     {
         public void Configure(EntityTypeBuilder<CarColor> builder)
         {

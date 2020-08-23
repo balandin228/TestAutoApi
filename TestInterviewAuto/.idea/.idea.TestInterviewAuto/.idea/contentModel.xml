@@ -36,8 +36,13 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Configurations" t="Include">
           <e p="CarBrandTypeConfiguration.cs" t="Include" />
+          <e p="CarColorTypeConfiguration.cs" t="Include" />
           <e p="CarTypeConfiguration.cs" t="Include" />
-          <e p="ColorTypeConfiguration.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200821204109_Initial.cs" t="Include" />
+          <e p="20200821204109_Initial.Designer.cs" t="Include" />
+          <e p="AutoDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -58,6 +63,29 @@
         <e p="TestInterviewAuto.Infrastructure.csproj" t="IncludeRecursive" />
       </e>
       <e p="TestInterviewAuto.sln" t="IncludeFlat" />
+      <e p="TestInterviewAuto.Web" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="CarController.cs" t="Include" />
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TestInterviewAuto.Web.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="TestInterviewAuto.Web.csproj" t="IncludeRecursive" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
     </e>
   </component>
 </project>

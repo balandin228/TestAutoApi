@@ -5,6 +5,10 @@
         public string Name { get; }
         public string Hex { get; }
 
+        public CarColor()
+        {
+            
+        }
         public CarColor(string name, string hex) 
         {
             Name = name;

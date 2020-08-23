@@ -4,6 +4,10 @@
     {
         public string Name { get; }
 
+        public CarBrand()
+        {
+            
+        }
         public CarBrand(string name)
         {
             Name = name;
