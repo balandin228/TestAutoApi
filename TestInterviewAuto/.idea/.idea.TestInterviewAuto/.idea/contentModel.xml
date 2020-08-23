@@ -52,6 +52,14 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
+          <e p="CarBrandRepository" t="Include">
+            <e p="CarBrandRepository.cs" t="Include" />
+            <e p="ICarBrandRepository.cs" t="Include" />
+          </e>
+          <e p="CarColorRepository" t="Include">
+            <e p="CarColorRepository.cs" t="Include" />
+            <e p="ICarColorRepository.cs" t="Include" />
+          </e>
           <e p="CarRepository" t="Include">
             <e p="CarRepository.cs" t="Include" />
             <e p="ICarRepository.cs" t="Include" />
@@ -83,6 +91,9 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="StartupExtensions" t="Include">
+          <e p="ServicesExtensions.cs" t="Include" />
+        </e>
         <e p="TestInterviewAuto.Web.csproj" t="IncludeRecursive" />
         <e p="WeatherForecast.cs" t="Include" />
       </e>

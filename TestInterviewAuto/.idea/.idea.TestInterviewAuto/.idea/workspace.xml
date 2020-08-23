@@ -25,36 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfda8601-21e7-42d9-ad5d-9de8323a3128" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarBrandRepository/CarBrandRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarBrandRepository/ICarBrandRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarColorRepository/CarColorRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarColorRepository/ICarColorRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/StartupExtensions/ServicesExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestInterviewAuto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/CarBrand/CarBrand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/CarBrand/CarBrand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Color/CarColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Color/CarColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/TestInterviewAuto.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/obj/Debug/netcoreapp3.1/TestInterviewAuto.Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarBrandTypeConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarBrandTypeConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarColorTypeConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarColorTypeConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/TestInterviewAuto.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/Debug/netcoreapp3.1/TestInterviewAuto.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/Debug/netcoreapp3.1/TestInterviewAuto.Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/Debug/netcoreapp3.1/TestInterviewAuto.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/Debug/netcoreapp3.1/TestInterviewAuto.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/TestInterviewAuto.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/TestInterviewAuto.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/TestInterviewAuto.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/TestInterviewAuto.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/Controllers/CarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/Controllers/CarController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/TestInterviewAuto.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/TestInterviewAuto.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/Debug/netcoreapp3.1/TestInterviewAuto.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/Debug/netcoreapp3.1/TestInterviewAuto.Web.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/Debug/netcoreapp3.1/TestInterviewAuto.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/Debug/netcoreapp3.1/TestInterviewAuto.Web.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/TestInterviewAuto.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/TestInterviewAuto.Web.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/TestInterviewAuto.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/TestInterviewAuto.Web.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestInterviewAuto.Web/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +42,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../CardShufflerWebApi/TestApi.Web/Controllers/DeckController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,12 +64,21 @@
         <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarBrandTypeConfiguration.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Configurations/CarColorTypeConfiguration.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Web/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/TestInterviewAuto.Web/Startup.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/AutoDbContext.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Car/Car.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/CarBrand/CarBrand.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Domain/Model/Color/CarColor.cs" />
         <option value="$PROJECT_DIR$/TestInterviewAuto.Web/appsettings.json" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Web/Controllers/CarController.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarBrandRepository.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarBrandRepository/ICarBrandRepository.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarBrandRepository/CarBrandRepository.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Web/StartupExtentions/ServicesExtentions.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarColorRepository/IColorRepository.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarColorRepository/CarCarColorRepository.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Infrastructure/Repositories/CarColorRepository/CarColorRepository.cs" />
+        <option value="$PROJECT_DIR$/TestInterviewAuto.Web/StartupExtensions/ServicesExtensions.cs" />
       </list>
     </option>
   </component>
@@ -184,6 +175,8 @@
       <workItem from="1597770660201" duration="4031000" />
       <workItem from="1598036259253" duration="6050000" />
       <workItem from="1598185553684" duration="1601000" />
+      <workItem from="1598193032227" duration="1760000" />
+      <workItem from="1598208337102" duration="825000" />
     </task>
     <servers />
   </component>

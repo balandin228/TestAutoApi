@@ -1,13 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TestInterviewAuto.Domain.Model.Car;
+using TestInterviewAuto.Infrastructure.Repositories.CarBrandRepository;
+using TestInterviewAuto.Infrastructure.Repositories.CarColorRepository;
+using TestInterviewAuto.Infrastructure.Repositories.CarRepository;
 
 namespace TestInterviewAuto.Web.Controllers
 {
-    public class CarController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CarController : ControllerBase
     {
-        // GET
-        public IActionResult Index()
+        private readonly ICarRepository _carRepository;
+        private readonly ICarColorRepository _carColorRepository;
+        private readonly ICarBrandRepository _carBrandRepository;
+
+        public CarController(ICarRepository carRepository, ICarColorRepository carColorRepository,
+            ICarBrandRepository carBrandRepository)
         {
-            return View();
+            _carRepository = carRepository;
+            _carColorRepository = carColorRepository;
+            _carBrandRepository = carBrandRepository;
         }
     }
 }

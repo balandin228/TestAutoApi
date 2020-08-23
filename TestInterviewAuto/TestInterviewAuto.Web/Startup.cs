@@ -14,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using TestInterviewAuto.Infrastructure;
 using TestInterviewAuto.Infrastructure.Repositories.CarRepository;
+using TestInterviewAuto.Web.StartupExtentions;
 
 namespace TestInterviewAuto.Web
 {
@@ -34,7 +35,7 @@ namespace TestInterviewAuto.Web
             services.AddDbContext<AutoDbContext>(opt => opt.UseNpgsql(
                 Configuration.GetConnectionString("AutoDbContext"),
                 x => x.MigrationsAssembly(typeof(AutoDbContext).Assembly.FullName)));
-            services.AddTransient<ICarRepository, CarRepository>();
+            services.RegisterAllRepositories();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Test Api", Version = "v1"}); });
         }
 
