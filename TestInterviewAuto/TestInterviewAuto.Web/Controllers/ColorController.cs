@@ -9,18 +9,25 @@ namespace TestInterviewAuto.Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CarColorController : ControllerBase
+    public class ColorController : ControllerBase
     {
         private readonly IColorRepository _colorRepository;
         private readonly IMapper _mapper;
 
-        public CarColorController(IColorRepository colorRepository, IMapper mapper)
+        public ColorController(IColorRepository colorRepository, IMapper mapper)
         {
             _colorRepository = colorRepository;
             _mapper = mapper;
         }
         
+        /// <summary>
+        /// Добавить цвет
+        /// </summary>
+        /// <param name="colorDto"></param>
+        /// <returns></returns>
         [HttpPost]
+        [Route("CreateColor")]
+        [ProducesResponseType(200)]
         public async Task<ActionResult> CreateColor([FromBody] CreateColorDto colorDto)
         {
             var color = _mapper.Map<Color>(colorDto);

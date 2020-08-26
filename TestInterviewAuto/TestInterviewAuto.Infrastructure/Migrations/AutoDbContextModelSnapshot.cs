@@ -26,6 +26,9 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
                     b.HasKey("Key");
 
                     b.ToTable("Brands");
@@ -39,15 +42,35 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-                    b.Property<long>("ColorId")
-                        .HasColumnType("bigint");
-
                     b.Property<string>("RegistrationNumber")
                         .HasColumnType("text");
 
                     b.HasKey("Key");
 
                     b.ToTable("Cars");
+                });
+
+            modelBuilder.Entity("TestInterviewAuto.Domain.Model.CarBrand.CarBrand", b =>
+                {
+                    b.Property<long>("Key")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("Id")
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<long>("BrandId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("CarId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Key");
+
+                    b.HasIndex("BrandId");
+
+                    b.HasIndex("CarId");
+
+                    b.ToTable("CarBrands");
                 });
 
             modelBuilder.Entity("TestInterviewAuto.Domain.Model.CarColor.CarColor", b =>
@@ -90,6 +113,21 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                     b.HasKey("Key");
 
                     b.ToTable("Colors");
+                });
+
+            modelBuilder.Entity("TestInterviewAuto.Domain.Model.CarBrand.CarBrand", b =>
+                {
+                    b.HasOne("TestInterviewAuto.Domain.Model.Brand.Brand", "Brand")
+                        .WithMany()
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TestInterviewAuto.Domain.Model.Car.Car", "Car")
+                        .WithMany("CarBrands")
+                        .HasForeignKey("CarId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("TestInterviewAuto.Domain.Model.CarColor.CarColor", b =>

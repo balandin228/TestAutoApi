@@ -6,32 +6,29 @@ namespace TestInterviewAuto.Domain.Model.Car
     public class Car : Entity<long>
     {
         public string RegistrationNumber { get; set; }
-        public long ColorId { get; set; }
         public int YearOfIssue { get; }
-        public long CarBrandId { get; }
         public virtual List<CarColor.CarColor> CarColors { get; }
-        public virtual Color.Color Color { get; }
+        public virtual List<CarBrand.CarBrand> CarBrands { get; }
 
         public Car()
         {
             CarColors = new List<CarColor.CarColor>();
+            CarBrands = new List<CarBrand.CarBrand>();
         }
-        public Car(string registrationNumber, long colorId, int yearOfIssue, long carBrandId)
+        public Car(string registrationNumber, int yearOfIssue)
         {
             CarColors = new List<CarColor.CarColor>();
-            CarBrandId = carBrandId;
+            CarBrands = new List<CarBrand.CarBrand>();
             YearOfIssue = yearOfIssue;
             RegistrationNumber = registrationNumber;
-            ColorId = colorId;
         }
         
-        public Car(long key,string registrationNumber, long colorId, int yearOfIssue, long carBrandId):base(key)
+        public Car(long key,string registrationNumber, long carColorId, int yearOfIssue, long carBrandId):base(key)
         {
             CarColors = new List<CarColor.CarColor>();
-            CarBrandId = carBrandId;
+            CarBrands = new List<CarBrand.CarBrand>();
             YearOfIssue = yearOfIssue;
             RegistrationNumber = registrationNumber;
-            ColorId = colorId;
         }
     }
 }

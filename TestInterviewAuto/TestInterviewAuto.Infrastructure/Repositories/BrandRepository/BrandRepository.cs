@@ -1,6 +1,6 @@
 ﻿using TestInterviewAuto.Domain.Model.Brand;
 
-namespace TestInterviewAuto.Infrastructure.Repositories.CarBrandRepository
+namespace TestInterviewAuto.Infrastructure.Repositories.BrandRepository
 {
     public class BrandRepository : EFRepository<Brand>, IBrandRepository
     {

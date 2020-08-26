@@ -2,7 +2,7 @@
 {
     public class Brand : Entity<long>
     {
-        public string Name { get; }
+        public string Name { get; set; }
 
         public Brand()
         {
