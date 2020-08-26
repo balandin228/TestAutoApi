@@ -11,12 +11,12 @@ namespace TestInterviewAuto.Web.Controllers
     [ApiController]
     public class CarColorController : ControllerBase
     {
-        private readonly ICarColorRepository _carColorRepository;
+        private readonly IColorRepository _colorRepository;
         private readonly IMapper _mapper;
 
-        public CarColorController(ICarColorRepository carColorRepository, IMapper mapper)
+        public CarColorController(IColorRepository colorRepository, IMapper mapper)
         {
-            _carColorRepository = carColorRepository;
+            _colorRepository = colorRepository;
             _mapper = mapper;
         }
         
@@ -24,8 +24,8 @@ namespace TestInterviewAuto.Web.Controllers
         public async Task<ActionResult> CreateColor([FromBody] CreateColorDto colorDto)
         {
             var color = _mapper.Map<Color>(colorDto);
-            await _carColorRepository.AddAsync(color);
-            await _carColorRepository.Context.SaveChangesAsync();
+            await _colorRepository.AddAsync(color);
+            await _colorRepository.Context.SaveChangesAsync();
             return Ok();
         }
     }

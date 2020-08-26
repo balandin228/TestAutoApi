@@ -12,15 +12,15 @@ namespace TestInterviewAuto.Web.Controllers
     public class CarController : ControllerBase
     {
         private readonly ICarRepository _carRepository;
-        private readonly ICarColorRepository _carColorRepository;
-        private readonly ICarBrandRepository _carBrandRepository;
+        private readonly IColorRepository _colorRepository;
+        private readonly IBrandRepository _brandRepository;
 
-        public CarController(ICarRepository carRepository, ICarColorRepository carColorRepository,
-            ICarBrandRepository carBrandRepository)
+        public CarController(ICarRepository carRepository, IColorRepository colorRepository,
+            IBrandRepository brandRepository)
         {
             _carRepository = carRepository;
-            _carColorRepository = carColorRepository;
-            _carBrandRepository = carBrandRepository;
+            _colorRepository = colorRepository;
+            _brandRepository = brandRepository;
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace TestInterviewAuto.Domain.Model.Brand
 {
-    public class Brand : Entity<long> ,IBrand
+    public class Brand : Entity<long>
     {
         public string Name { get; }
 

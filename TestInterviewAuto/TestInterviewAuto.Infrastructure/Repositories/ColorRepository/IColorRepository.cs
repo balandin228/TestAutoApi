@@ -2,7 +2,7 @@
 
 namespace TestInterviewAuto.Infrastructure.Repositories.CarColorRepository
 {
-    public interface ICarColorRepository : IRepository<Color>
+    public interface IColorRepository : IRepository<Color>
     {
         
     }

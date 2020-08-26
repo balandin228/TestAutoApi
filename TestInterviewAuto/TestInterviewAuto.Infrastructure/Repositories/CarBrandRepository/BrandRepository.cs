@@ -2,9 +2,9 @@
 
 namespace TestInterviewAuto.Infrastructure.Repositories.CarBrandRepository
 {
-    public class CarBrandRepository : EFRepository<Brand>, ICarBrandRepository
+    public class BrandRepository : EFRepository<Brand>, IBrandRepository
     {
-        public CarBrandRepository(AutoDbContext context) : base(context)
+        public BrandRepository(AutoDbContext context) : base(context)
         {
             
         }

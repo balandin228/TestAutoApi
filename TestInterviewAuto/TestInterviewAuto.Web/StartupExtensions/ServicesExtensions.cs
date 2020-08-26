@@ -9,9 +9,9 @@ namespace TestInterviewAuto.Web.StartupExtentions
     {
         public static void RegisterAllRepositories(this IServiceCollection services)
         {
-            services.AddTransient<ICarBrandRepository, CarBrandRepository>();
+            services.AddTransient<IBrandRepository, BrandRepository>();
             services.AddTransient<ICarRepository, CarRepository>();
-            services.AddTransient<ICarColorRepository, CarColorRepository>();
+            services.AddTransient<IColorRepository, ColorRepository>();
         }
     }
 }

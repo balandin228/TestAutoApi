@@ -9,8 +9,8 @@ using TestInterviewAuto.Infrastructure;
 namespace TestInterviewAuto.Infrastructure.Migrations
 {
     [DbContext(typeof(AutoDbContext))]
-    [Migration("20200821204109_Initial")]
-    partial class Initial
+    [Migration("20200826111642_Fix")]
+    partial class Fix
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -19,6 +19,19 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
                 .HasAnnotation("ProductVersion", "3.1.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
+
+            modelBuilder.Entity("TestInterviewAuto.Domain.Model.Brand.Brand", b =>
+                {
+                    b.Property<long>("Key")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("Id")
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.HasKey("Key");
+
+                    b.ToTable("Brands");
+                });
 
             modelBuilder.Entity("TestInterviewAuto.Domain.Model.Car.Car", b =>
                 {
@@ -39,7 +52,7 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                     b.ToTable("Cars");
                 });
 
-            modelBuilder.Entity("TestInterviewAuto.Domain.Model.Brand.Brand", b =>
+            modelBuilder.Entity("TestInterviewAuto.Domain.Model.CarColor.CarColor", b =>
                 {
                     b.Property<long>("Key")
                         .ValueGeneratedOnAdd()
@@ -47,9 +60,19 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
+                    b.Property<long>("CarId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("ColorId")
+                        .HasColumnType("bigint");
+
                     b.HasKey("Key");
 
-                    b.ToTable("Brand");
+                    b.HasIndex("CarId");
+
+                    b.HasIndex("ColorId");
+
+                    b.ToTable("CarColors");
                 });
 
             modelBuilder.Entity("TestInterviewAuto.Domain.Model.Color.Color", b =>
@@ -60,9 +83,30 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
+                    b.Property<string>("Hex")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
                     b.HasKey("Key");
 
                     b.ToTable("Colors");
+                });
+
+            modelBuilder.Entity("TestInterviewAuto.Domain.Model.CarColor.CarColor", b =>
+                {
+                    b.HasOne("TestInterviewAuto.Domain.Model.Car.Car", "Car")
+                        .WithMany("CarColors")
+                        .HasForeignKey("CarId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TestInterviewAuto.Domain.Model.Color.Color", "Color")
+                        .WithMany()
+                        .HasForeignKey("ColorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

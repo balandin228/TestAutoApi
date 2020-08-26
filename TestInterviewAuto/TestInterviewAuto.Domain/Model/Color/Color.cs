@@ -1,9 +1,9 @@
 ﻿namespace TestInterviewAuto.Domain.Model.Color
 {
-    public class Color : Entity<long>, IColor
+    public class Color : Entity<long>
     {
-        public string Name { get; }
-        public string Hex { get; }
+        public string Name { get; private set; }
+        public string Hex { get; private set; }
 
         public Color()
         {

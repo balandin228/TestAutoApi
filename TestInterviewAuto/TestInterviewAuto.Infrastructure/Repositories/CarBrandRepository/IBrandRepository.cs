@@ -2,7 +2,7 @@
 
 namespace TestInterviewAuto.Infrastructure.Repositories.CarBrandRepository
 {
-    public interface ICarBrandRepository : IRepository<Brand>
+    public interface IBrandRepository : IRepository<Brand>
     {
         
     }
