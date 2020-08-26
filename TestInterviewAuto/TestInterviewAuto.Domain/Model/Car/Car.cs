@@ -8,8 +8,8 @@ namespace TestInterviewAuto.Domain.Model.Car
         public long ColorId { get; set; }
         public int YearOfIssue { get; }
         public long CarBrandId { get; }
-        public virtual CarBrand.CarBrand CarBrand { get; }
-        public virtual CarColor Color { get; }
+        public virtual Brand.Brand Brand { get; }
+        public virtual Color.Color Color { get; }
 
         public Car()
         {

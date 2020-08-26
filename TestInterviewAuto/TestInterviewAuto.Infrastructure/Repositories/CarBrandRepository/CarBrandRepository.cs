@@ -1,8 +1,8 @@
-﻿using TestInterviewAuto.Domain.Model.CarBrand;
+﻿using TestInterviewAuto.Domain.Model.Brand;
 
 namespace TestInterviewAuto.Infrastructure.Repositories.CarBrandRepository
 {
-    public class CarBrandRepository : EFRepository<CarBrand>, ICarBrandRepository
+    public class CarBrandRepository : EFRepository<Brand>, ICarBrandRepository
     {
         public CarBrandRepository(AutoDbContext context) : base(context)
         {

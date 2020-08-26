@@ -1,8 +1,8 @@
-﻿using TestInterviewAuto.Domain.Model.CarBrand;
+﻿using TestInterviewAuto.Domain.Model.Brand;
 
 namespace TestInterviewAuto.Infrastructure.Repositories.CarBrandRepository
 {
-    public interface ICarBrandRepository : IRepository<CarBrand>
+    public interface ICarBrandRepository : IRepository<Brand>
     {
         
     }

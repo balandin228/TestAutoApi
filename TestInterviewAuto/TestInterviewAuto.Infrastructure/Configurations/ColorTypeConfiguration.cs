@@ -1,14 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using TestInterviewAuto.Domain.Model.CarBrand;
+using TestInterviewAuto.Domain.Model.Color;
 
 namespace TestInterviewAuto.Infrastructure.Configurations
 {
-    public class CarBrandTypeConfiguration : IEntityTypeConfiguration<CarBrand>
+    public class ColorTypeConfiguration : IEntityTypeConfiguration<Color>
     {
-        public void Configure(EntityTypeBuilder<CarBrand> builder)
+        public void Configure(EntityTypeBuilder<Color> builder)
         {
-            builder.ToTable("CarBrand");
+            builder.ToTable("Colors");
             builder.HasKey(x => x.Key);
             builder.Property(x => x.Key).HasColumnName("Id");
         }

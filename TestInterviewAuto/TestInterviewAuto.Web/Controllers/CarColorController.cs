@@ -23,7 +23,7 @@ namespace TestInterviewAuto.Web.Controllers
         [HttpPost]
         public async Task<ActionResult> CreateColor([FromBody] CreateColorDto colorDto)
         {
-            var color = _mapper.Map<CarColor>(colorDto);
+            var color = _mapper.Map<Color>(colorDto);
             await _carColorRepository.AddAsync(color);
             await _carColorRepository.Context.SaveChangesAsync();
             return Ok();

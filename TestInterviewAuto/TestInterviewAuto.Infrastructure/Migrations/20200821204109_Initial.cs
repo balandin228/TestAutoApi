@@ -8,7 +8,7 @@ namespace TestInterviewAuto.Infrastructure.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "CarBrand",
+                name: "Brand",
                 columns: table => new
                 {
                     Id = table.Column<long>(nullable: false)
@@ -20,7 +20,7 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "CarColors",
+                name: "Colors",
                 columns: table => new
                 {
                     Id = table.Column<long>(nullable: false)
@@ -49,10 +49,10 @@ namespace TestInterviewAuto.Infrastructure.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "CarBrand");
+                name: "Brand");
 
             migrationBuilder.DropTable(
-                name: "CarColors");
+                name: "Colors");
 
             migrationBuilder.DropTable(
                 name: "Cars");

@@ -39,7 +39,7 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                     b.ToTable("Cars");
                 });
 
-            modelBuilder.Entity("TestInterviewAuto.Domain.Model.CarBrand.CarBrand", b =>
+            modelBuilder.Entity("TestInterviewAuto.Domain.Model.Brand.Brand", b =>
                 {
                     b.Property<long>("Key")
                         .ValueGeneratedOnAdd()
@@ -49,10 +49,10 @@ namespace TestInterviewAuto.Infrastructure.Migrations
 
                     b.HasKey("Key");
 
-                    b.ToTable("CarBrand");
+                    b.ToTable("Brand");
                 });
 
-            modelBuilder.Entity("TestInterviewAuto.Domain.Model.Color.CarColor", b =>
+            modelBuilder.Entity("TestInterviewAuto.Domain.Model.Color.Color", b =>
                 {
                     b.Property<long>("Key")
                         .ValueGeneratedOnAdd()
@@ -62,7 +62,7 @@ namespace TestInterviewAuto.Infrastructure.Migrations
 
                     b.HasKey("Key");
 
-                    b.ToTable("CarColors");
+                    b.ToTable("Colors");
                 });
 #pragma warning restore 612, 618
         }

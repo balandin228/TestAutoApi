@@ -1,21 +1,21 @@
 ﻿namespace TestInterviewAuto.Domain.Model.Color
 {
-    public class CarColor : Entity<long>, ICarColor
+    public class Color : Entity<long>, IColor
     {
         public string Name { get; }
         public string Hex { get; }
 
-        public CarColor()
+        public Color()
         {
             
         }
-        public CarColor(string name, string hex) 
+        public Color(string name, string hex) 
         {
             Name = name;
             Hex = hex;
         }
         
-        public CarColor(long key,string name, string hex) : base(key)
+        public Color(long key,string name, string hex) : base(key)
         {
             Name = name;
             Hex = hex;

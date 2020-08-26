@@ -890,23 +890,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\79090\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Infrastructure\\TestInterviewAuto.Infrastructure.csproj",
+      "projectUniqueName": "F:\\Programming\\Github\\OOP\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Infrastructure\\TestInterviewAuto.Infrastructure.csproj",
       "projectName": "TestInterviewAuto.Infrastructure",
-      "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Infrastructure\\TestInterviewAuto.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Infrastructure\\obj\\",
+      "projectPath": "F:\\Programming\\Github\\OOP\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Infrastructure\\TestInterviewAuto.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\79090\\.nuget\\packages\\",
+      "outputPath": "F:\\Programming\\Github\\OOP\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\79090\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -919,8 +915,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\admin\\Documents\\GitHub\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Domain\\TestInterviewAuto.Domain.csproj": {
-              "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Domain\\TestInterviewAuto.Domain.csproj"
+            "F:\\Programming\\Github\\OOP\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Domain\\TestInterviewAuto.Domain.csproj": {
+              "projectPath": "F:\\Programming\\Github\\OOP\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Domain\\TestInterviewAuto.Domain.csproj"
             }
           }
         }
@@ -968,7 +964,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

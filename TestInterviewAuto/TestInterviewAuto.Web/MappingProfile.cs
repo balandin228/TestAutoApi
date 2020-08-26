@@ -8,7 +8,7 @@ namespace TestInterviewAuto.Web
     {
         public MappingProfile()
         {
-            CreateMap<CreateColorDto, CarColor>()
+            CreateMap<CreateColorDto, Color>()
                 .ForMember(x=>x.Hex,
                     opt=>opt.MapFrom(c=>c.Hex))
                 .ForMember(x=>x.Name,

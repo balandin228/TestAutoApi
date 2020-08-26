@@ -2,7 +2,7 @@
 
 namespace TestInterviewAuto.Infrastructure.Repositories.CarColorRepository
 {
-    public class CarColorRepository : EFRepository<CarColor>, ICarColorRepository
+    public class CarColorRepository : EFRepository<Color>, ICarColorRepository
     {
         public CarColorRepository(AutoDbContext context) : base(context)
         {
