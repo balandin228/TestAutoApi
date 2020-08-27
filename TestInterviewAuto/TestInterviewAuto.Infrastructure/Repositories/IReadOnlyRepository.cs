@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using TestInterviewAuto.Domain.Model;
@@ -7,8 +8,8 @@ namespace TestInterviewAuto.Infrastructure.Repositories
 {
     public interface IReadOnlyRepository<TEntity> where TEntity : Entity<long>
     {
-        Task<TEntity[]> ListAsync();
-        Task<TEntity[]> ListAsync(Expression<Func<TEntity, bool>> options);
+        Task<List<TEntity>> ListAsync();
+        Task<List<TEntity>> ListAsync(Expression<Func<TEntity, bool>> options);
         Task<TEntity[]> GetWithInclude(params Expression<Func<TEntity, object>>[] options);
 
         Task<TEntity> FirstAsync();

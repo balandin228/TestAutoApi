@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -32,6 +33,15 @@ namespace TestInterviewAuto.Web.Controllers
         {
             await _mediator.Send(new CreateColorCommand() {CreateColorDto = colorDto});
             return Ok();
+        }
+
+        [HttpGet]
+        [Route("Colors")]
+        [ProducesResponseType(200)]
+        public async Task<ActionResult<List<GetColorDto>>> GetColors()
+        {
+            var result = await _mediator.Send(new GetColorsCommand());
+            return Ok(result);
         }
     }
 }

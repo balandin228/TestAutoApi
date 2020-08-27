@@ -43,14 +43,14 @@ namespace TestInterviewAuto.Infrastructure.Repositories
             return Task.CompletedTask;
         }
 
-        public Task<TEntity[]> ListAsync()
+        public Task<List<TEntity>> ListAsync()
         {
-            return Items.ToArrayAsync();
+            return Items.ToListAsync();
         }
 
-        public Task<TEntity[]> ListAsync(Expression<Func<TEntity, bool>> options)
+        public Task<List<TEntity>> ListAsync(Expression<Func<TEntity, bool>> options)
         {
-            return Items.Where(options).ToArrayAsync();
+            return Items.Where(options).ToListAsync();
         }
 
         public Task<TEntity> FirstAsync()

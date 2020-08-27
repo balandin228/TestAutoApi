@@ -25,6 +25,12 @@ namespace TestInterviewAuto.Web
             CreateMap<CreateBrandDto, Brand>()
                 .ForMember(x => x.Name,
                     opt => opt.MapFrom(x => x.Name));
+
+            CreateMap<Color, GetColorDto>()
+                .ForMember(x => x.Id, 
+                    opt => opt.MapFrom(x => x.Key))
+                .ForMember(x=>x.Name,
+                    opt=>opt.MapFrom(x=>x.Name));
         }
     }
 }
