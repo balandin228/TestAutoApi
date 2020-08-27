@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -38,6 +39,7 @@ namespace TestInterviewAuto.Web
                 x => x.MigrationsAssembly(typeof(AutoDbContext).Assembly.FullName)));
             services.RegisterAllRepositories();
             services.AddAutoMapper(cfg => cfg.AddProfile<MappingProfile>());
+            services.AddMediatR(typeof(Startup));
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Test Api", Version = "v1"}); });
         }
 

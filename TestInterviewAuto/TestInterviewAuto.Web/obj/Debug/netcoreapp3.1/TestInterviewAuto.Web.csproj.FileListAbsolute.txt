@@ -54,9 +54,6 @@ C:\Users\admin\Documents\GitHub\TestAutoApi\TestInterviewAuto\TestInterviewAuto.
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.csprojAssemblyReference.cache
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.AssemblyInfoInputs.cache
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.AssemblyInfo.cs
-F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.csproj.CoreCompileInputs.cache
-F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.MvcApplicationPartsAssemblyInfo.cs
-F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.MvcApplicationPartsAssemblyInfo.cache
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.dll
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.pdb
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -106,3 +103,8 @@ F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\ob
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\staticwebassets\TestInterviewAuto.Web.StaticWebAssets.Manifest.cache
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\staticwebassets\TestInterviewAuto.Web.StaticWebAssets.xml
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.genruntimeconfig.cache
+F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\MediatR.dll
+F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.csproj.CoreCompileInputs.cache
+F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.MvcApplicationPartsAssemblyInfo.cs
+F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\obj\Debug\netcoreapp3.1\TestInterviewAuto.Web.MvcApplicationPartsAssemblyInfo.cache

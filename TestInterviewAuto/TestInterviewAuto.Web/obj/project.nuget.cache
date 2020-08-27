@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "r2uRUD9slWmqj3El0A+Cmfe4sSHg68iKSB6B4CqtfRaq6uNecDLpxGkCxTXbbsjgfGlggAKhuVpY1TGbEMujnA==",
+  "dgSpecHash": "5Qck3Y7kQf8DVvEhUc7iHaTYBFE0IKt7/T1QH4BCO0dYLsBX2vmmqgy5wjlf2zZu51Ah/Ly7QWX8tE8nQ+k+QA==",
   "success": true,
   "projectFilePath": "F:\\Programming\\Github\\OOP\\TestAutoApi\\TestInterviewAuto\\TestInterviewAuto.Web\\TestInterviewAuto.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\79090\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\79090\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\79090\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
+    "C:\\Users\\79090\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\79090\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\79090\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\79090\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

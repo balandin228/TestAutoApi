@@ -1,9 +1,11 @@
 ﻿using System.Threading.Tasks;
 using AutoMapper;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using TestInterviewAuto.Domain.Model.Color;
 using TestInterviewAuto.Infrastructure.Repositories.CarColorRepository;
 using TestInterviewAuto.Web.Dtos;
+using TestInterviewAuto.Web.Features.Color;
 
 namespace TestInterviewAuto.Web.Controllers
 {
@@ -11,13 +13,11 @@ namespace TestInterviewAuto.Web.Controllers
     [ApiController]
     public class ColorController : ControllerBase
     {
-        private readonly IColorRepository _colorRepository;
-        private readonly IMapper _mapper;
 
-        public ColorController(IColorRepository colorRepository, IMapper mapper)
+        private readonly IMediator _mediator;
+        public ColorController(IMediator mediator)
         {
-            _colorRepository = colorRepository;
-            _mapper = mapper;
+            _mediator = mediator;
         }
         
         /// <summary>
@@ -30,9 +30,7 @@ namespace TestInterviewAuto.Web.Controllers
         [ProducesResponseType(200)]
         public async Task<ActionResult> CreateColor([FromBody] CreateColorDto colorDto)
         {
-            var color = _mapper.Map<Color>(colorDto);
-            await _colorRepository.AddAsync(color);
-            await _colorRepository.Context.SaveChangesAsync();
+            await _mediator.Send(new CreateColorCommand() {CreateColorDto = colorDto});
             return Ok();
         }
     }

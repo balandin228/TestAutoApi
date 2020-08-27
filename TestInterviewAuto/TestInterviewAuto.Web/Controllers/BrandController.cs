@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using MediatR;
+using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TestInterviewAuto.Domain.Model.Brand;
 using TestInterviewAuto.Infrastructure.Repositories.BrandRepository;
 using TestInterviewAuto.Web.Dtos;
+using TestInterviewAuto.Web.Features.Brand;
 
 namespace TestInterviewAuto.Web.Controllers
 {
@@ -15,13 +18,11 @@ namespace TestInterviewAuto.Web.Controllers
     [ApiController]
     public class BrandController : ControllerBase
     {
-        private readonly IBrandRepository _brandRepository;
-        private readonly IMapper _mapper;
+        private readonly IMediator _mediator;
 
-        public BrandController(IBrandRepository brandRepository, IMapper mapper)
+        public BrandController(IMediator mediator)
         {
-            _brandRepository = brandRepository;
-            _mapper = mapper;
+            _mediator = mediator;
         }
 
 
@@ -35,9 +36,7 @@ namespace TestInterviewAuto.Web.Controllers
         [Route("CreateBrand")]
         public async Task<ActionResult> CreateBrand([FromBody] CreateBrandDto createBrandDto)
         {
-            var brand = _mapper.Map<Brand>(createBrandDto);
-            await _brandRepository.AddAsync(brand);
-            await _brandRepository.Context.SaveChangesAsync();
+            await _mediator.Send(new CreateBrandCommand(){CreateBrandDto = createBrandDto});
             return Ok();
         } 
     }
