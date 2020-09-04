@@ -35,6 +35,11 @@ namespace TestInterviewAuto.Web.Controllers
             return Ok();
         }
 
+
+        /// <summary>
+        /// Получить все цвета
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Route("Colors")]
         [ProducesResponseType(200)]
