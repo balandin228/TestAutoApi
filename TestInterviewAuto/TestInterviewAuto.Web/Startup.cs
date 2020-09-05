@@ -52,9 +52,8 @@ namespace TestInterviewAuto.Web
             }
 
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
             app.UseRouting();
-
             app.UseSwagger();
             app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "Test Api V1"); });
             app.UseAuthorization();
