@@ -1,24 +1,25 @@
-const path = require('path');
+var path = require('path');
 
 module.exports = {
   entry: './src/index.js',
-  devtool: "source-map",
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'build')
+    path: path.resolve("..\\wwwroot", 'build'),
+    publicPath: 'build'
   },
+  devtool: "source-map",
   module: {
     rules: [
-        {
-            test: /\.jsx$/,
-            exclude: /(node_modules)/,
-            use: {
-                loader: 'babel-loader',
-                options: {
-                  presets: ["es2015", "stage-0", "react"]
-                }
-              }
+    { 
+        test: /\.js$|jsx/,
+        exclude: /node_modules/, 
+        use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env','@babel/preset-react']
+            }
         }
+    }
     ]
-},
+  }  
 };

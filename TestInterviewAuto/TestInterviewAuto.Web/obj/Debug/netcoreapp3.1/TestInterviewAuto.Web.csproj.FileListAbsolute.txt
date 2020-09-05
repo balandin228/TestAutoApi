@@ -107,7 +107,6 @@ F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bi
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\App\package-lock.json
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\App\package.json
-F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\App\public\manifest.json
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
 F:\Programming\Github\OOP\TestAutoApi\TestInterviewAuto\TestInterviewAuto.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
