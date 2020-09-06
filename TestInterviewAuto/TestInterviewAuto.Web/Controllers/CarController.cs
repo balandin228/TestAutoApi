@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using TestInterviewAuto.Domain.Model.Car;
@@ -48,6 +49,16 @@ namespace TestInterviewAuto.Web.Controllers
             await _carBrandRepository.AddAsync(carBrand);
             await _carColorRepository.Context.SaveChangesAsync();
             return Ok();
+        }
+
+
+        [HttpPost]
+        [ProducesResponseType(200)]
+        [Route("All")]
+        public async Task<ActionResult<List<GetCarDto>>> GetAllCars()
+        {
+            var result =await _carRepository.ListAsync();
+            return _mapper.Map<List<GetCarDto>>(result);
         }
     }
 }

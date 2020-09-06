@@ -68,7 +68,8 @@ namespace TestInterviewAuto.Infrastructure.Migrations
 
                     b.HasIndex("BrandId");
 
-                    b.HasIndex("CarId");
+                    b.HasIndex("CarId")
+                        .IsUnique();
 
                     b.ToTable("CarBrands");
                 });
@@ -89,7 +90,8 @@ namespace TestInterviewAuto.Infrastructure.Migrations
 
                     b.HasKey("Key");
 
-                    b.HasIndex("CarId");
+                    b.HasIndex("CarId")
+                        .IsUnique();
 
                     b.HasIndex("ColorId");
 
@@ -124,8 +126,8 @@ namespace TestInterviewAuto.Infrastructure.Migrations
                         .IsRequired();
 
                     b.HasOne("TestInterviewAuto.Domain.Model.Car.Car", "Car")
-                        .WithMany("CarBrands")
-                        .HasForeignKey("CarId")
+                        .WithOne("CarBrand")
+                        .HasForeignKey("TestInterviewAuto.Domain.Model.CarBrand.CarBrand", "CarId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -133,8 +135,8 @@ namespace TestInterviewAuto.Infrastructure.Migrations
             modelBuilder.Entity("TestInterviewAuto.Domain.Model.CarColor.CarColor", b =>
                 {
                     b.HasOne("TestInterviewAuto.Domain.Model.Car.Car", "Car")
-                        .WithMany("CarColors")
-                        .HasForeignKey("CarId")
+                        .WithOne("CarColor")
+                        .HasForeignKey("TestInterviewAuto.Domain.Model.CarColor.CarColor", "CarId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

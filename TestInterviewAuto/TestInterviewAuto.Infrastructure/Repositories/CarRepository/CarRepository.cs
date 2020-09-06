@@ -11,7 +11,9 @@ namespace TestInterviewAuto.Infrastructure.Repositories.CarRepository
         }
 
         protected override IQueryable<Car> Items => base.Items
-            .Include(c => c.CarColors)
-            .ThenInclude(x => x.Color);
+            .Include(c => c.CarColor)
+            .ThenInclude(x => x.Color)
+            .Include(c=>c.CarBrand)
+            .ThenInclude(x=>x.Brand);
     }
 }

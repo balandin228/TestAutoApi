@@ -19,8 +19,8 @@ namespace TestInterviewAuto.Infrastructure.Configurations
                 .HasForeignKey(x=>x.BrandId)
                 .OnDelete(DeleteBehavior.Cascade);
             builder.HasOne(x => x.Car)
-                .WithMany(x => x.CarBrands)
-                .HasForeignKey(x => x.CarId)
+                .WithOne(x=>x.CarBrand)
+                .HasForeignKey<CarBrand>(x=>x.CarId)
                 .OnDelete(DeleteBehavior.Cascade);
         }
     }

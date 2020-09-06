@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Linq;
+using AutoMapper;
 using TestInterviewAuto.Domain.Model.Brand;
 using TestInterviewAuto.Domain.Model.Car;
 using TestInterviewAuto.Domain.Model.Color;
@@ -31,6 +32,24 @@ namespace TestInterviewAuto.Web
                     opt => opt.MapFrom(x => x.Key))
                 .ForMember(x=>x.Name,
                     opt=>opt.MapFrom(x=>x.Name));
+
+            CreateMap<Brand, GetBrandDto>()
+                .ForMember(x => x.Name,
+                    opt => opt.MapFrom(x => x.Name))
+                .ForMember(x => x.Id,
+                    opt => opt.MapFrom(x => x.Key));
+
+            CreateMap<Car, GetCarDto>()
+                .ForMember(x => x.YearOfIssue,
+                    opt => opt.MapFrom(x => x.YearOfIssue))
+                .ForMember(x => x.RegistrationNumber,
+                    opt => opt.MapFrom(x => x.RegistrationNumber))
+                .ForMember(x => x.Brand,
+                    opt => opt.MapFrom(
+                        (car, carDto, i, context) => context.Mapper.Map<GetBrandDto>(car.CarBrand.Brand)))
+                .ForMember(x=>x.Color,
+                    opt=>opt.MapFrom(
+                        (car,carDto,i,context)=> context.Mapper.Map<GetColorDto>(car.CarColor.Color)));
         }
     }
 }

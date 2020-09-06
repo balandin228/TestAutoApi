@@ -11,6 +11,9 @@ export default class App extends React.Component {
                     <Header />
                     <main>
                         <Switch>
+                            <Route strict path="/" component={AddAuto} />
+                            <Route path="/list" component={AutoList} />
+                            <Route component={NotFound} />
                         </Switch>
                     </main>
                 </div>
